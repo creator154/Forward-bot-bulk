@@ -11,9 +11,9 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 app = Client(
     "clone-bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id=11867213,
+    api_hash="d475e13d8cf6937316d9fb8df5a049f9",
+    bot_token="8697269007:AAFA4PRdM6bj6hN11ZWyClxBViH8fRUbUyA"
 )
 
 
