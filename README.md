@@ -21,7 +21,6 @@ Media + Text Copy
 
 ---
 
-⚡ Deploy To Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/creator154/Forward-bot-bulk)
 
 
