@@ -1,0 +1,31 @@
+{
+  "name": "Forward Bot Bulk",
+  "description": "Telegram Clone Bot",
+  "repository": "https://github.com/creator154/Forward-bot-bulk",
+  "logo": "https://heroku.com/images/home/logo.png",
+  "keywords": ["telegram", "pyrogram", "bot"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API HASH",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
